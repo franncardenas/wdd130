@@ -12,8 +12,8 @@ body {
     --accent1-color: #2892D7;
     --accent2-color: #1B4353;
 
-    --heading-font: '_____', serif;
-    --paragraph-font: '_____', serif;
+    --heading-font: 'Lato', serif;
+    --paragraph-font: 'Noto Sans', serif;
 
     --nav-background-color: #DDE9F1;
     --nav-link-color: #1D70A2;
