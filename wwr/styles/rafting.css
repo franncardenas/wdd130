@@ -22,8 +22,8 @@
 }
 
 p {
-    font-family: var(--paragraph-font); /* Utiliza la fuente seleccionada */
-    color: black; /* Color de fuente */
+    font-family: var(--paragraph-font);
+    color: black; 
 }
 
 .sociallinks a {
