@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:wght@202&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+:root {
+    --primary-color: #173753;
+    --secondary-color: #6DAEDB;
+    --accent1-color: #2892D7;
+    --accent2-color: #1B4353;
+
+    --heading-font: 'Lato', serif;
+    --paragraph-font: 'Noto Sans', serif;
+
+    --nav-background-color: #DDE9F1;
+    --nav-link-color: #1D70A2;
+    --nav-hover-link-color: #0D4F6C;
+    --nav-hover-background-color: #BBD2E0;
+}
+
+p {
+    font-family: var(--paragraph-font); /* Utiliza la fuente seleccionada */
+    color: black; /* Color de fuente */
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+/* setting div hero */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero h1 {
+    top: 20px; 
+    left: 50%;
+    color: white;
+    position: absolute;
+    transform: translateX(-50%);
+} 
+
+.hero p {
+    color: white;
+    font-family: var(--paragraph-font); 
+    
+}
+
+.hero article {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+} 
+
+.hero article img {
+    width: 200px;
+    float: right;
+}
+
+/* end setting div */
