@@ -168,3 +168,112 @@ section p {
     text-align: center;
     font-family: var(--paragraph-font);
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    margin-top: 20px;
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 20px;
+    height: 390px;
+}
+
+.company-info .info {
+    flex: 1; 
+    padding: 0 20px; 
+    text-align: center;
+}
+
+.company-info .map {
+    flex: 1; 
+    text-align: center; 
+}
+
+
+.company-info h1 {
+    margin: 10px 0;
+}
+
+.employee-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    height: 390px;
+}
+
+.employee {
+    flex: 1;
+    text-align: center;
+}
+
+.employee img {
+    width: 250px; 
+    height: auto;
+    border-radius: 50px;
+}
+
+.employee h3 {
+    margin-top: 10px;  
+}
+
+.company-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 0.5rem; 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 450px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
